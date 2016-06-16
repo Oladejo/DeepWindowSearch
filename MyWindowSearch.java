@@ -421,7 +421,6 @@ public void valueChanged(ListSelectionEvent e) {
 
 
 //**  valid_text_file() **/
-// ************************FILTER YOUR FILE HERE copyright Bui Duc Long CDTH3A************************
 
 public boolean valid_text_file(File what){
 	String file = what.toString();
