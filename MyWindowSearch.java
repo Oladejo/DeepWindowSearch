@@ -1,6 +1,7 @@
 
 
 package mywindowsearch;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.* ;
@@ -15,7 +16,7 @@ import java.io.*; //to handle RandomAccessFile
 public class MyWindowSearch extends JFrame
   implements ListSelectionListener, ActionListener{
 	
-	private JButton bLookin, bText, bExit, bHelp, bAbout, bCopy;
+	protected JButton bLookin, bText, bExit, bHelp, bAbout, bCopy;
 	private JTextField tLookin, tText, tStatus;
 	private JLabel lLookin, lText, lResults, lStatus;
 	private Container c ;
