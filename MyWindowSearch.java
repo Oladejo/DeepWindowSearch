@@ -206,6 +206,7 @@ public void actionPerformed( ActionEvent e ){
 			System.exit(0);
 		}
 	}
+	
 	else if (e.getSource() == bHelp){
 		JOptionPane.showMessageDialog(null,"MyWindowSearch v1.0 Developed by E- Badmus." + "\n" + "Easy to make A Deep Search Through Your Windows . For more developer@oysec.com"+ "\n" + "or Email me at - badmusamuda@gmail.com"+ "\n" + "My Homepage - www.9jadeveloper.com");	
 	}
