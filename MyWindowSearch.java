@@ -1,7 +1,4 @@
-
-
 package mywindowsearch;
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.* ;
@@ -10,11 +7,7 @@ import javax.swing.JOptionPane;
 import javax.swing.text.*;
 //Read line input.
 import java.io.*; //to handle RandomAccessFile
-
-
-
-public class MyWindowSearch extends JFrame
-  implements ListSelectionListener, ActionListener{
+public class MyWindowSearch extends JFrame implements ListSelectionListener, ActionListener{
 	
 	protected JButton bLookin, bText, bExit, bHelp, bAbout, bCopy;
 	private JTextField tLookin, tText, tStatus;
